@@ -19,7 +19,7 @@ public class MainWindow extends JFrame {
         topPanel.setBackground(new Color(107, 162, 171));
         add(topPanel);
 
-       JButton b1 = new JButton("Add new Patient");
+       JButton b1 = new JButton("Add New Patient");
         b1.setBounds(30,10,200,30);
         b1.setFont(new Font("serif",Font.BOLD,15));
         b1.setBackground(new Color(155, 209, 202));
@@ -54,7 +54,7 @@ public class MainWindow extends JFrame {
                 new Department();
             }
         });
-        JButton b4 = new JButton("All Employee info");
+        JButton b4 = new JButton("All Employee Info");
         b4.setBounds(660,10,200,30);
         b4.setFont(new Font("serif",Font.BOLD,15));
         b4.setBackground(new Color(155, 209, 202));
@@ -65,7 +65,7 @@ public class MainWindow extends JFrame {
                 new Employee_info();
             }
         });
-        JButton b5 = new JButton("Patient info");
+        JButton b5 = new JButton("Patient Info");
         b5.setBounds(870,10,200,30);
         b5.setFont(new Font("serif",Font.BOLD,15));
         b5.setBackground(new Color(155, 209, 202));
